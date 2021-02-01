@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
 <link rel="stylesheet" type="text/css" href="css/owl.theme.css"/>
 <link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>
+<link rel="stylesheet" type="text/css" href="css/nav.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300,500,600,800,900' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
@@ -35,11 +36,26 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#banner">Inicio</a></li>
           <li><a href="#mision">Planificación</a></li>
-          <li><a href="#organizacion">Organización</a></li>
-          <li><a href="funciones.html">Funciones TI</a></li>
-          <li><a type="text/html" href="./perfil.html">Perfiles TI</a></li>
-          <li><a type="text/html" href="./reclutamiento.html">Admisión de personal</a></li>
-          <li><a type="text/html" href="./materiales.html">Adquisición de materiales</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" type="text/html" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Organización
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="funciones.html">Funciones TI</a></li>
+              <li><a class="dropdown-item" href="perfil.html">Perfiles TI</a></li>
+              <li><a class="dropdown-item" href="index.html#organizacion">Organigrama</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" type="text/html" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Integración
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./reclutamiento.html">Admisión de personal</a></li>
+              <li><a class="dropdown-item" href="./materiales.html">Adquisición de materiales</a></li>
+            </ul>
+          </li>
+          <li><a href="control.html">Control</a></li>
         </ul>
       </div>
     </div>
